@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchedulerApi", "SchedulerApi\SchedulerApi.csproj", "{E8343C9F-A37C-4123-BB4D-7D375919455B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchesApi", "SwitchesApi\SwitchesApi.csproj", "{84F1F19C-F199-4B1D-9412-72468DEE9F94}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D6BD567-7099-4B62-8648-FDDA43433A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8343C9F-A37C-4123-BB4D-7D375919455B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8343C9F-A37C-4123-BB4D-7D375919455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8343C9F-A37C-4123-BB4D-7D375919455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8343C9F-A37C-4123-BB4D-7D375919455B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F1F19C-F199-4B1D-9412-72468DEE9F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1F19C-F199-4B1D-9412-72468DEE9F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1F19C-F199-4B1D-9412-72468DEE9F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1F19C-F199-4B1D-9412-72468DEE9F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6BD567-7099-4B62-8648-FDDA43433A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6BD567-7099-4B62-8648-FDDA43433A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6BD567-7099-4B62-8648-FDDA43433A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6BD567-7099-4B62-8648-FDDA43433A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C57C97D1-34EC-4132-8FDC-E5C1C965F31B}
+	EndGlobalSection
+EndGlobal

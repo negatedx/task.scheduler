@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  switchesapi:
+    image: ${DOCKER_REGISTRY}switchesapi
+    build:
+      context: .
+      dockerfile: SwitchesApi/Dockerfile
